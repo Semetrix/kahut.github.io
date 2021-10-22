@@ -32,3 +32,7 @@ jobs:
       #  run: npm serve 
       - name: npm run deploy
         run: npm run deploy
+      - name: Set email 
+        run: git config --global user.email "semetrix@semetrix.tk"
+      - name: Set username
+        run: git config --global user.name "Semetrix"
